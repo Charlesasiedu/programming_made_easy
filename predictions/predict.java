@@ -6,16 +6,15 @@ public class Prediction {
         execute();
     }
     public static void execute() {
-        System.out.println();
-        Date now = new Date();
+        Date current = new Date();
 
-        System.out.println("Date : " + now);
+        System.out.println("\n Date : " + current);
 
         System.out.println("     WELCOME TO THE PREDICTION SYSTEM");
         System.out.println("     --------------------------------\n");
 
         Scanner insert = new Scanner(System.in);
-        System.out.println("What is your Name ? ");
+        System.out.println("Enter your Name ? ");
         String name = insert.nextLine();
         System.out.println("       RANGE SYSTEM ");
 
